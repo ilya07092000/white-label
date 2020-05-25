@@ -11,6 +11,23 @@ html {
     font-size: 1rem;
   }
 
+  #contact,
+  #privacy,
+  #index {
+    display: none;
+  }
+
+  #index.active {
+    display: block;
+  }
+
+  #contact.active {
+    display: block;
+  }
+
+  #privacy.active {
+    display: block;
+  }
   
   *,
   ::after,
@@ -42,6 +59,7 @@ header {
 
 .logo a img {
   display: block;
+  pointer-events: none;
 }
 
 .logo a img:focus {
