@@ -1,4 +1,4 @@
 # white-label
 Simple layout.
 
-https://ilya07092000.github.io/moGo/
+https://ilya07092000.github.io/white-label/
